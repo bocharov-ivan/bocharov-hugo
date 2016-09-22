@@ -1,3 +1,31 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://bocharov-ivan.github.io/" 
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Ivan Bocharov"
+title = "Ivan Bocharov"
+pygmentsuseclasses = true
+# disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+Author = "Ivan Bocharov"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = ""
+Email = "i.bocharov <at> tue.nl"
+FaviconFile = "img/leaf.ico"
+GitHub = "//github.com/bocharov-ivan"
+HighlightJS = true
+Initials = "IA" # Displayed on single post page; DEPRECATED in v0.3.0.
+Lang = "en"
+Twitter = "//twitter.com/iva_bocharov"
+ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
