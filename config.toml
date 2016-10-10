@@ -10,6 +10,7 @@ title = "Ivan Bocharov"
 pygmentsuseclasses = true
 # disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
+enableRobotsTXT = true
 
 [permalinks]
 fixed = ":title/"
