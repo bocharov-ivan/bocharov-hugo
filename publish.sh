@@ -1,10 +1,10 @@
 #!/bin/bash
 # Push the changes to bocharov-ivan.github.io
 
-CHECKOUT="/tmp/bocharov-ivan.github.io.git"
+CHECKOUT="/tmp/ivan-bocharov.github.io.git"
 
 rm -f -r $CHECKOUT
-git clone git@github.com:bocharov-ivan/bocharov-ivan.github.io.git $CHECKOUT
+git clone git@github.com:ivan-bocharov/ivan-bocharov.github.io.git $CHECKOUT
 
 BUILDPATH=$PWD
 rm -f -r $BUILDPATH/public/*
