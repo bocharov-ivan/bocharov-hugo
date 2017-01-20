@@ -9,7 +9,7 @@ I am a PhD student at the Signal Processing Systems group at Eindhoven
 University of Technology. I am a member of [BIASlab](http:/biaslab.org)
 research team.
 
-My research focuses on variational methods for probabilistic machine learning.
+My research focuses on variational methods for probabilistic machine learning, probabilistic programming and one-shot learning.
 Aside from that I'm interested in compiler design.
 
-I'm an aspiring MtG player and a big Pokemon fan.
+I'm a big Legend of Zelda and Pokemon fan.
