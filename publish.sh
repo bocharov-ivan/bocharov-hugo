@@ -9,7 +9,7 @@ git clone git@github.com:ivan-bocharov/ivan-bocharov.github.io.git $CHECKOUT
 BUILDPATH=$PWD
 rm -f -r $BUILDPATH/public/*
 
-hugo -t cocoa
+hugo -t cocoa-eh
 
 cd $CHECKOUT
 

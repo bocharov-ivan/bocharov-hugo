@@ -1,32 +1,30 @@
-baseurl = "https://ivan-bocharov.github.io/" 
-builddrafts = false
+baseurl = "https://ivan-bocharov.github.io/"
+theme = "cocoa-eh"
+builddrafts = true
 canonifyurls = true
 contentdir = "content"
 languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Ivan Bocharov"
-title = "Ivan Bocharov"
-pygmentsuseclasses = true
-# disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
+title = "P(kek) = 1.0"
+disqusshortname = ""
 pluralizelisttitles = false
-enableRobotsTXT = true
 
 [permalinks]
-fixed = ":title/"
 blog = "blog/:slug/"
 
 [params]
-Author = "Ivan Bocharov"
-CacheBuster = true
-DateForm = "Jan 2, 2006"
-DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
-Description = ""
-Email = "i.bocharov <at> tue.nl"
-FaviconFile = "img/leaf.ico"
-GitHub = "//github.com/bocharov-ivan"
-HighlightJS = true
-Initials = "IA" # Displayed on single post page; DEPRECATED in v0.3.0.
-Lang = "en"
-Twitter = "//twitter.com/iva_bocharov"
-ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "My personal website"
+copyright = "Copyright © 2017 Ivan Bocharov"
+logofile = "img/plaid.jpg"
+faviconfile = "img/plaid.jpg"
+highlightjs = true
+progressively = true
+latestpostcount = 5
+github = "ivan-bocharov"
+email = "i.a.bocharov _at_ tue.nl"
+twitter = "example"
+social_banner = "img/banner.png"
