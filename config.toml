@@ -1,30 +1,54 @@
-baseurl = "https://ivan-bocharov.github.io/"
-theme = "cocoa-eh"
-builddrafts = true
-canonifyurls = true
-contentdir = "content"
+## Basic Configuration
+
+baseurl = "https://ivan-bocharov.github.io/" 
+builddrafts = false
+canonifyurls = false
 languageCode = "en-US"
+
+contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
+
 author = "Ivan Bocharov"
-title = "P(kek) = 1.0"
-disqusshortname = ""
-pluralizelisttitles = false
+title = "Ivan Bocharov"
 
-[permalinks]
-blog = "blog/:slug/"
+theme = "hugo-goa"
 
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "My personal website"
-copyright = "Copyright © 2017 Ivan Bocharov"
-logofile = "img/plaid.jpg"
-faviconfile = "img/plaid.jpg"
-highlightjs = true
-progressively = true
-latestpostcount = 5
+author = "Ivan Bocharov"
+intro = "PhD Student in Bayesian Machine Learning"
+description = "Currently working on probabilistic models for acoustics in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
+authorimage = "Ivan.png"
+dateformat = "Jan 2, 2006"
+
+## Social Accounts
+[params.social]
 github = "ivan-bocharov"
-email = "i.a.bocharov _at_ tue.nl"
-twitter = "example"
-social_banner = "img/banner.png"
+# linkedin = "<username>"
+twitter = "iva_bocharov"
+email = "i.a.bocharov@tue.nl"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Ivan Bocharov. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = false
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+
+[[menu.main]]
+    name = "CV"
+    identifier = "CV"
+    weight = 100
+    url = "/CV.pdf"
