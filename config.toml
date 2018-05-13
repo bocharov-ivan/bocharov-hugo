@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Ivan Bocharov"
 intro = "PhD Student in Bayesian Machine Learning"
-description = "Currently working on probabilistic models for acoustics in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
+description = "Currently working on probabilistic models for acoustic environments in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
 authorimage = "Ivan.png"
 dateformat = "Jan 2, 2006"
 
