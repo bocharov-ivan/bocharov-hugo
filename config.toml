@@ -22,8 +22,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Ivan Bocharov"
-intro = "PhD Student in Bayesian Machine Learning"
-description = "Currently working on probabilistic models for acoustic environments in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
+intro = "PhD Student in Probabilistic Machine Learning"
+description = "Currently working on probabilistic programming language design in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
 authorimage = "Ivan.png"
 dateformat = "Jan 2, 2006"
 
@@ -31,12 +31,11 @@ dateformat = "Jan 2, 2006"
 [params.social]
 github = "ivan-bocharov"
 # linkedin = "<username>"
-twitter = "iva_bocharov"
 email = "i.a.bocharov@tue.nl"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Ivan Bocharov. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2020. Ivan Bocharov. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = false
 highlightjs = true
 
