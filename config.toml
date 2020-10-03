@@ -22,7 +22,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Ivan Bocharov"
-intro = "PhD Student in Probabilistic Machine Learning"
+intro = "Probabilistic Machine Learning Researcher"
 description = "Currently working on probabilistic programming language design in [BIASlab](https://biaslab.github.io) at [TU/e](https://tue.nl)"
 authorimage = "Ivan.png"
 dateformat = "Jan 2, 2006"
